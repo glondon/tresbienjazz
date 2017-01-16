@@ -1,3 +1,3 @@
 tresbienjazz.com
 <hr />
-Site for Tom
+Site for a Jazz Trio in New Orleans
