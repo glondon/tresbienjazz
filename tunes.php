@@ -1,7 +1,7 @@
 <table>
 	<tr>
 
-		<td>
+		<td valign="top">
 
 			<ul>
 
@@ -75,6 +75,7 @@
 			
 
 		</td>
+		<td valign="top">
 			<h2>NEW ORLEANS</h2>
 
 			<ul>
@@ -156,35 +157,71 @@
 
 			<ul>
 
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li>All Blues</li>
+				<li>Blue Monk</li>
+				<li>Freddie The Free Loader</li>
+				<li>Mercy, Mercy</li>
+				<li>Mr. PC</li>
+				<li>Willow Weep For Me </li>
+
 			</ul>
-		<td>
+			
+		
 
 		</td>
+		
+		<td valign="top">
 
-		<td>
+			<h2>BOSSA/LATIN FUNK</h2>
+			<ul>
+				<li>Black Orpheus</li>
+				<li>Blue Bossa</li>
+				<li>Feel Like Makin Love</li>
+				<li>Girl From Ipanema</li>
+				<li>Killing Me Softly</li>
+				<li>Masquerade (This)</li>
+				<li>Meditation</li>
+				<li>Song For My Father</li>
+				<li>Sugar</li>
+				<li>Tipitina</li>
+				<li>Torna Mia a Surrento</li>
+				<li>Unforgettable</li>
+				<li>Watermelon Man</li>
+				<li>What a Wonderful World</li>
+				<li>Walkin To New Orleans</li>
+				<li>When I Fall In Love</li>
+				<li>When Sunny Gets Blue</li>
+				<li>When The Saints Go</li>
+				<li>Marching In</li>
+				<li>When Your’e Smilin</li>
+				<li>Willow Weep For Me</li>
+				<li>Witchcraft</li>
+				<li>Work Song</li>
+				<li>You Are The Sunshine of My..</li>
+			</ul>
+
+			<h2>BALLAD</h2>
+
+			<ul>
+				<li>As Time Goes By</li>
+				<li>Do You Know What It Means</li>
+				<li>Georgia</li>
+				<li>God Bless The Child</li>
+				<li>Hallelujah</li>
+				<li>Here There, Everywhere</li>
+				<li>I’ll Be There</li>
+				<li>In a Sentimental Mood</li>
+				<li>Misty</li>
+				<li>My Foolish Heart</li>
+				<li>My Funny Valentine</li>
+				<li>Summertime</li>
+				<li>When Sunny Gets Blue</li>
+				<li>Unforgettable</li>
+				<li>Mr. Magic</li>
+				<li>Tangerine</li>
+				<li>Watermelon Man</li>
+				
+			</ul>
 
 		</td>
 
