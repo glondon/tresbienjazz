@@ -72,6 +72,9 @@
 				<li>My Romance</li>
 			</ul>
 
+			
+
+		</td>
 			<h2>NEW ORLEANS</h2>
 
 			<ul>
@@ -98,15 +101,85 @@
 				<li>Walkin To New Orleans</li>
 				<li>When Your’e Smilin</li>
 				<li>Second Line</li>
-				<li></li>
-
-
-
+				<li>Iko Iko</li>
+				<li>Isn’t She Lovely</li>
+				<li>It Don’t Mean a Thing..</li>
+				<li>It Was a Very Good Year</li>
+				<li>Just the Two of Us</li>
+				<li>Killing Me Softly</li>
+				<li>Let’s Stay Together</li>
+				<li>Masquerade (This)</li>
+				<li>Meditation</li>
+				<li>Mercy,Mercy</li>
+				<li>Misty</li>
+				<li>More</li>
+				<li>Mr. Magic</li>
+				<li>Mr. PC</li>
+				<li>My Foolish Heart</li>
+				<li>My Funny Valentine</li>
+				<li>My Favorite Things</li>
+				<li>My Romance</li>
+				<li>My Way</li>
+				<li>New York, New York</li>
+				<li>Oh When The Saints</li>
+				<li>OnThe Sunny Side of The Street</li>
+				<li>O Sole’ Mio</li>
+				<li>Satin Doll</li>
+				<li>Sheik of Araby</li>
+				<li>Second Line</li>
+				<li>Song For My Father</li>
+				<li>Stagger Lee</li>
+				<li>St. James Infirmary</li>
+				<li>Summertime</li>
+				<li>St. Thomas</li>
+				<li>Stolen Moments</li>
+				<li>Sugar</li>
+				<li>Sweet Georgia Brown</li>
+				<li>Sweet Lorraine</li>
+				<li>Tangerine</li>
+				<li>Take 5</li>
+				<li>Take The “A” Train</li>
+				<li>There Is No Greater Love </li>
+				<li>They All Asked For You</li>
+				<li>The Way You Look Tonight</li>
+				<li>There Will Never B Another U</li>
+				<li>Satin Doll</li>
+				<li>St. Thomas</li>
+				<li>Stolen Moments</li>
+				<li>Take 5</li>
+				<li>There Is No Greater Love You</li>
+				<li>The Way You Look Tonight</li>
 
 			</ul>
 
-		</td>
+			<h2>BLUES</h2>
 
+			<ul>
+
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
 		<td>
 
 		</td>
