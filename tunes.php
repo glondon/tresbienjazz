@@ -4,6 +4,13 @@
 * Template Name: Tunes
 */
 
+$nola_music = array('Basin Street Blues','Big Chief','Bill Bailey','Blueberry Hill','Bourbon Street Parade','Dinah','Do You Know What It Means.',
+					'Grazin In The Grass','In The Summer Time','Iko Iko','Maple Leaf Rag','Mardis Gras In New Orleans','Oh When The Saints',
+					'On The Sunny Side of The Street','Sheik of Araby','St. James Infirmary','Summertime','Sweet Georgia Brown','Sweet Lorraine',
+					'The Entertainer','They All Asked For','What a Wonderful World','Walkin To New Orleans','When You’re Smilin’','Second Line',
+					'Tipitina');
+sort($nola_music);
+
 get_header();
 ?>
 
@@ -11,7 +18,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<h1>Tunes</h1>
+			<h1>Tres Bien Song List</h1>
 
 			<table>
 				<tr>
