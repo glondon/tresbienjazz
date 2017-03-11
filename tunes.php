@@ -36,6 +36,9 @@ $ballads = array('As Time Goes By','Bewitched','Body and Soul','Do You Know What
 				 'Somewhere','Somewhere Over The Rainbow','Strangers In The Night','Summertime','Tenderly','Torna a Surriento','When Sunny Gets Blue',
 				 'When You Wish Upon a Star','Unforgettable');
 
+$bossa = array('Black Orpheus','Blue Bossa','Desifinado','Dindi','Feel Like Makin Love','Girl From Ipanema','Killing Me Softly With His Song','This Masquerade',
+			   'Meditation','Mr. Magic','Song For My Father','Sugar','Tangerine','The Shadow of Your Smile','Watermelon Man');
+
 
 sort($nola);
 sort($contemporary);
@@ -43,6 +46,7 @@ sort($wedding);
 sort($swing);
 sort($blues);
 sort($ballads);
+sort($bossa);
 
 get_header();
 
@@ -104,6 +108,11 @@ get_header();
 							<?php foreach($ballads as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
 
+						<h2>BOSSA/LATIN FUNK</h2>
+
+						<ul>
+							<?php foreach($bossa as $value) echo '<li>'.$value.'</li>'; ?>
+						</ul>
 
 					</td>
 
