@@ -30,12 +30,19 @@ $swing = array('Ain’t Miss Behavin','A Foggy Day','All of Me','All The Things 
 $blues = array('All Blues','Blue Monk','Chameleon','Freddie The Freeloader','Gee Baby, Ain’t I Good To You','Honky Tonk Train Blues','I’m Walkin',
 			   'Mercy, Mercy, Mercy','Mr. PC','Mustang Sally','Sandu','Stagger Lee','Willow Weep For Me');
 
+$ballads = array('As Time Goes By','Bewitched','Body and Soul','Do You Know What It Means.','Georgia On My Mind','God Bless The Child','Here There, Everywhere',
+				 'I Left My Heart In San Francisco','I’ll Be There','In a Sentimental Mood','Isn’t It Romantic','It Was a Very Good Year','Let’s Stay Together',
+				 'Misty','Moonlight In Vermont','Moonlight Serenade','Moon River','Mona Lisa','My Foolish Heart','My Funny Valentine','My Way','O’ Sole Mio',
+				 'Somewhere','Somewhere Over The Rainbow','Strangers In The Night','Summertime','Tenderly','Torna a Surriento','When Sunny Gets Blue',
+				 'When You Wish Upon a Star','Unforgettable');
+
 
 sort($nola);
 sort($contemporary);
 sort($wedding);
 sort($swing);
 sort($blues);
+sort($ballads);
 
 get_header();
 
@@ -91,56 +98,12 @@ get_header();
 							<?php foreach($blues as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
 
-						<h2>BOSSA/LATIN FUNK</h2>
-						<ul>
-							<li>Black Orpheus</li>
-							<li>Blue Bossa</li>
-							<li>Feel Like Makin Love</li>
-							<li>Girl From Ipanema</li>
-							<li>Killing Me Softly</li>
-							<li>Masquerade (This)</li>
-							<li>Meditation</li>
-							<li>Song For My Father</li>
-							<li>Sugar</li>
-							<li>Tipitina</li>
-							<li>Torna Mia a Surrento</li>
-							<li>Unforgettable</li>
-							<li>Watermelon Man</li>
-							<li>What a Wonderful World</li>
-							<li>Walkin To New Orleans</li>
-							<li>When I Fall In Love</li>
-							<li>When Sunny Gets Blue</li>
-							<li>When The Saints Go</li>
-							<li>Marching In</li>
-							<li>When Your’e Smilin</li>
-							<li>Willow Weep For Me</li>
-							<li>Witchcraft</li>
-							<li>Work Song</li>
-							<li>You Are The Sunshine of My..</li>
-						</ul>
-
-						<h2>BALLAD</h2>
+						<h2>BALLADS</h2>
 
 						<ul>
-							<li>As Time Goes By</li>
-							<li>Do You Know What It Means</li>
-							<li>Georgia</li>
-							<li>God Bless The Child</li>
-							<li>Hallelujah</li>
-							<li>Here There, Everywhere</li>
-							<li>I’ll Be There</li>
-							<li>In a Sentimental Mood</li>
-							<li>Misty</li>
-							<li>My Foolish Heart</li>
-							<li>My Funny Valentine</li>
-							<li>Summertime</li>
-							<li>When Sunny Gets Blue</li>
-							<li>Unforgettable</li>
-							<li>Mr. Magic</li>
-							<li>Tangerine</li>
-							<li>Watermelon Man</li>
-							
+							<?php foreach($ballads as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
+
 
 					</td>
 
