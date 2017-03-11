@@ -5,10 +5,10 @@
 */
 
 $nola = array('Basin Street Blues','Big Chief','Bill Bailey','Blueberry Hill','Bourbon Street Parade','Dinah','Do You Know What It Means.',
-					'Grazin In The Grass','In The Summer Time','Iko Iko','Maple Leaf Rag','Mardis Gras In New Orleans','Oh When The Saints',
-					'On The Sunny Side of The Street','Sheik of Araby','St. James Infirmary','Summertime','Sweet Georgia Brown','Sweet Lorraine',
-					'The Entertainer','They All Asked For','What a Wonderful World','Walkin To New Orleans','When You’re Smilin’','Second Line',
-					'Tipitina');
+			  'Grazin In The Grass','In The Summer Time','Iko Iko','Maple Leaf Rag','Mardis Gras In New Orleans','Oh When The Saints',
+			  'On The Sunny Side of The Street','Sheik of Araby','St. James Infirmary','Summertime','Sweet Georgia Brown','Sweet Lorraine',
+			  'The Entertainer','They All Asked For','What a Wonderful World','Walkin To New Orleans','When You’re Smilin’','Second Line',
+			  'Tipitina');
 
 $contemporary = array('Across The Universe','Alison','Brown Eyed Girl','Careless Whisper','Change The World','Closing Time','Don’t Know Why',
 					  'Drift Away','Have a Little Faith In Me','Hello It’s Me','Hey There Delilah','Ho, Hey','Home','I’ll Be','New York State of Mind',
@@ -21,9 +21,17 @@ $wedding = array('Always and Forever','All of Me –John Legend','Bach’s Prelu
 				 'That’s What Friends Are For','Tonight, I Celebrate My Love','True Colors','Unforgettable','Up Where We Belong','Wedding March',
 				 'We’ve Only Just Begun','When I Fall In Love','You Are So Beautiful','You Are The Sunshine of My Life');
 
+$swing = array('Ain’t Miss Behavin','A Foggy Day','All of Me','All The Things You Are','Almost Like Being In Love','Autumn Leaves','A Child Is Born',
+			   'A Foggy Day','Beyond the Sea','Bye Bye Blackbird','Days of Wine and Roses','Don’t Get Around Much Anymore','Dream a Little Dream of Me',
+			   'Fly Me To The Moon','How High The Moon','I’m Old Fashioned','In a Mellow Tone','In The Mood','It Don’t Mean a Thing If It Ain’t Got That Swing',
+			   'Mood Indigo','My Favorite Things','My Romance','New York, New York','Satin Doll','So What','St. Thomas','Stolen Moments','Take 5',
+			   'Take The “A” Train','There Is No Greater Love','The Way You Look Tonight','There Will Never Be Another You','Witchcraft');
+
 
 sort($nola);
 sort($contemporary);
+sort($wedding);
+sort($swing);
 
 get_header();
 
@@ -62,6 +70,12 @@ get_header();
 						</ul>
 
 						<p><strong>(Wedding selections provided upon request)</strong><p>
+
+						<h2>SWING/STANDARDS</h2>
+
+						<ul>
+							<?php foreach($swing as $value) echo '<li>'.$value.'</li>'; ?>
+						</ul>
 
 					</td>
 					
