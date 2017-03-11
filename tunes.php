@@ -4,17 +4,25 @@
 * Template Name: Tunes
 */
 
-$nola_music = array('Basin Street Blues','Big Chief','Bill Bailey','Blueberry Hill','Bourbon Street Parade','Dinah','Do You Know What It Means.',
+$nola = array('Basin Street Blues','Big Chief','Bill Bailey','Blueberry Hill','Bourbon Street Parade','Dinah','Do You Know What It Means.',
 					'Grazin In The Grass','In The Summer Time','Iko Iko','Maple Leaf Rag','Mardis Gras In New Orleans','Oh When The Saints',
 					'On The Sunny Side of The Street','Sheik of Araby','St. James Infirmary','Summertime','Sweet Georgia Brown','Sweet Lorraine',
 					'The Entertainer','They All Asked For','What a Wonderful World','Walkin To New Orleans','When You’re Smilin’','Second Line',
 					'Tipitina');
-sort($nola_music);
 
 $contemporary = array('Across The Universe','Alison','Brown Eyed Girl','Careless Whisper','Change The World','Closing Time','Don’t Know Why',
 					  'Drift Away','Have a Little Faith In Me','Hello It’s Me','Hey There Delilah','Ho, Hey','Home','I’ll Be','New York State of Mind',
 					  'Open Arms','One Love','Piano Man','Sara Smile','She Talks To Angels','The Long and Winding Road','You’ve Got A Friend',
 					  'Your Song');
+
+$wedding = array('Always and Forever','All of Me –John Legend','Bach’s Prelude in C','Bridal Chorus','Die a Happy Man','Endless Love','Hallelujah',
+				 'Hands To Heaven','I’ll Be There','Isn’t She Lovely','Jesu, Joy Of Man’s Desiring','Just The Way You Are','Just The Two of Us',
+				 'Let’s Stay Together','Makin’ Whoopee!','More','One Call Away','Over and Over Again','Pachelbel’s Canon in D','The Wedding Song',
+				 'That’s What Friends Are For','Tonight, I Celebrate My Love','True Colors','Unforgettable','Up Where We Belong','Wedding March',
+				 'We’ve Only Just Begun','When I Fall In Love','You Are So Beautiful','You Are The Sunshine of My Life');
+
+
+sort($nola);
 sort($contemporary);
 
 get_header();
@@ -35,7 +43,7 @@ get_header();
 						<h2>NEW ORLEANS MUSIC</h2>
 
 						<ul>
-							<?php foreach($nola_music as $value) echo '<li>'.$value.'</li>'; ?>
+							<?php foreach($nola as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
 
 						<h2>CONTEMPORARY MUSIC</h2>
@@ -43,86 +51,17 @@ get_header();
 						<ul>
 							<?php foreach($contemporary as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
-			
 
 					</td>
 					<td valign="top">
-						<h2>NEW ORLEANS</h2>
+						
+						<h2>WEDDING MUSIC</h2>
 
 						<ul>
-							<li>Basin Street Blues</li>
-							<li>Big Chief</li>
-							<li>Bill Bailey</li>
-							<li>Blueberry Hill</li>
-							<li>Bourbon Street Parade</li>
-							<li>Dinah</li>
-							<li>Do You Know What It Means</li>
-							<li>Georgia</li>
-							<li>Grazin In The Grass</li>
-							<li>In The Summer Time</li>
-							<li>Iko Iko</li>
-							<li>Oh When The Saints</li>
-							<li>On The Sunny Side of The Street</li>
-							<li>Sheik of Araby</li>
-							<li>St. James Infirmary</li>
-							<li>Summertime</li>
-							<li>Sweet Georgia Brown</li>
-							<li>Sweet Lorraine</li>
-							<li>They All Asked For</li>
-							<li>What a Wonderful World</li>
-							<li>Walkin To New Orleans</li>
-							<li>When Your’e Smilin</li>
-							<li>Second Line</li>
-							<li>Iko Iko</li>
-							<li>Isn’t She Lovely</li>
-							<li>It Don’t Mean a Thing..</li>
-							<li>It Was a Very Good Year</li>
-							<li>Just the Two of Us</li>
-							<li>Killing Me Softly</li>
-							<li>Let’s Stay Together</li>
-							<li>Masquerade (This)</li>
-							<li>Meditation</li>
-							<li>Mercy,Mercy</li>
-							<li>Misty</li>
-							<li>More</li>
-							<li>Mr. Magic</li>
-							<li>Mr. PC</li>
-							<li>My Foolish Heart</li>
-							<li>My Funny Valentine</li>
-							<li>My Favorite Things</li>
-							<li>My Romance</li>
-							<li>My Way</li>
-							<li>New York, New York</li>
-							<li>Oh When The Saints</li>
-							<li>OnThe Sunny Side of The Street</li>
-							<li>O Sole’ Mio</li>
-							<li>Satin Doll</li>
-							<li>Sheik of Araby</li>
-							<li>Second Line</li>
-							<li>Song For My Father</li>
-							<li>Stagger Lee</li>
-							<li>St. James Infirmary</li>
-							<li>Summertime</li>
-							<li>St. Thomas</li>
-							<li>Stolen Moments</li>
-							<li>Sugar</li>
-							<li>Sweet Georgia Brown</li>
-							<li>Sweet Lorraine</li>
-							<li>Tangerine</li>
-							<li>Take 5</li>
-							<li>Take The “A” Train</li>
-							<li>There Is No Greater Love </li>
-							<li>They All Asked For You</li>
-							<li>The Way You Look Tonight</li>
-							<li>There Will Never B Another U</li>
-							<li>Satin Doll</li>
-							<li>St. Thomas</li>
-							<li>Stolen Moments</li>
-							<li>Take 5</li>
-							<li>There Is No Greater Love You</li>
-							<li>The Way You Look Tonight</li>
-
+							<?php foreach($wedding as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
+
+						<p><strong>(Wedding selections provided upon request)</strong><p>
 
 					</td>
 					
