@@ -27,11 +27,15 @@ $swing = array('Ain’t Miss Behavin','A Foggy Day','All of Me','All The Things 
 			   'Mood Indigo','My Favorite Things','My Romance','New York, New York','Satin Doll','So What','St. Thomas','Stolen Moments','Take 5',
 			   'Take The “A” Train','There Is No Greater Love','The Way You Look Tonight','There Will Never Be Another You','Witchcraft');
 
+$blues = array('All Blues','Blue Monk','Chameleon','Freddie The Freeloader','Gee Baby, Ain’t I Good To You','Honky Tonk Train Blues','I’m Walkin',
+			   'Mercy, Mercy, Mercy','Mr. PC','Mustang Sally','Sandu','Stagger Lee','Willow Weep For Me');
+
 
 sort($nola);
 sort($contemporary);
 sort($wedding);
 sort($swing);
+sort($blues);
 
 get_header();
 
@@ -81,17 +85,10 @@ get_header();
 					
 					<td valign="top">
 
-						<h2>BLUES</h2>
+						<h2>BLUES/FUNK</h2>
 
 						<ul>
-
-							<li>All Blues</li>
-							<li>Blue Monk</li>
-							<li>Freddie The Free Loader</li>
-							<li>Mercy, Mercy</li>
-							<li>Mr. PC</li>
-							<li>Willow Weep For Me </li>
-
+							<?php foreach($blues as $value) echo '<li>'.$value.'</li>'; ?>
 						</ul>
 
 						<h2>BOSSA/LATIN FUNK</h2>
