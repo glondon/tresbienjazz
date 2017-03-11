@@ -21,6 +21,7 @@
 
 <?php wp_head(); ?>
 <meta name="google-site-verification" content="OZ-fqKlQB1Cp_kJxEZlzuo2Tm-b0Vec4UsAIKVvZLX8" />
+<meta name="msvalidate.01" content="89CEE778A7138ACD34E85AB8C98873A0" />
 </head>
 
 <body <?php body_class(); ?>>
